@@ -1,0 +1,28 @@
+.Navbar-main{
+    border: 1px solid red;
+    height: 50px;
+    width: 100%;
+    display: flex;
+    backdrop-filter: blur(10px);
+    align-items: center;
+    justify-content: center;
+}
+.Nav_center{
+    display: flex;
+    place-items: center;
+}
+a{
+    padding: 10px;
+    margin: 5px;
+    text-decoration: none;
+    
+}
+.Nav_left{
+    position: absolute;
+    left: 5%;;
+}
+.Nav_right{
+    position: absolute;
+    right: 5%;
+    
+}
